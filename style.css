@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.container{
+    text-align: center;
+}
+.container h3{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+ border-radius: 5px;
+}
+.btn{
+     font-weight: bold;
+     background-color: transparent;
+     padding: 5px;
+border-radius: 5px;
+background-color: antiquewhite;
+}
+.btn:hover{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #afa6a6;
+    color:blueviolet;
+
+    transition: all 0.3s;
+
+    
+    
+}
+
